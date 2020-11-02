@@ -1005,8 +1005,7 @@ void First()
 
 void Help()
 {
-    printf("legal commands:");
-    printf("create,mkdir,rm,cat,edit,psw,format,exit,login,logout,ls,cd,tree,help");
+    printf("create(新建一个文件，参数为路径)\nmkdir(新建一个目录，参数为路径)\nrm(删除一个文件，参数为路径)\ncat(打印文件内容)\nedit(编辑文件内容（只能追加）)\npsw(设置密码)\nformat(格式化)\nexit(退出)\nlogin(登录)\nlogout(登出)\nls(列出当下所有项)\ncd(change dir)\ntree(以树型格式显示结构，参数为整数，代表显示的层数)\nhelp");
 }
 
 #define printcolorset "\033[;32m\n%s$\033[0m"
